@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style3.css">
+	<title>Amani Mara v3 Form</title>
+</head>
+<body>
+	<div id="container">
+		<div id="content">
+			<a href="index.html"><h1>Amani Mara</h1></a><br>
+			<form method="GET">
+				<input type="text" name="firstname" placeholder="First Name" required><br>
+				<input type="text" name="lastname" placeholder="Last Name"><br>
+				<input type="email" name="email" placeholder="Email" required><br>
+				<input type="password" name="password" placeholder="Password" required><br>
+				<input type="date" name="arrival" placeholder="Arrive - dd/mm/yyyy"><br>
+				<input type="date" name="departure" placeholder="Depart - dd/mm/yyyy"><br>
+				<br><span>Number of Guests: </span><br>
+				<br><input type="radio" name="guests" value="1" checked><span>1</span>
+				<input type="radio" name="guests" value="2"><span>2</span>
+				<input type="radio" name="guests" value="3"><span>3</span>
+				<input type="radio" name="guests" value="4"><span>4</span>
+				<input type="radio" name="guests" value="5+"><span>5+</span>
+				<br><br><span>Pets: </span><br>
+				<input type="checkbox" name="pets" value="cat"><span>Cats</span>
+				<input type="checkbox" name="pets" value="dog"><span>Dogs</span></span><br>
+				<br><span>Purpose:</span><br>
+				<select name="purpose">
+					<option value="pleasure">Pleasure</option>
+					<option value="business">Business</option>
+				</select>
+				<br><br><input type="reset" class="btn small" name="reset" value="Reset"><input type="submit" class="btn small" name="submit" value="Submit">
+			</form><!-- end of form -->
+		</div><!-- end of content -->
+	</div><!-- end of container -->
+</body>
+</html>

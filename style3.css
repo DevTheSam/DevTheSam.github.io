@@ -1,0 +1,81 @@
+body, html {
+	font-size: 16px;
+	height: 100%;
+	margin: 0rem;
+	padding: 0rem;
+}
+
+span {
+	color: #fff;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: #fff;
+    text-shadow: 0 0 .32rem #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 1.5rem;
+	color: #fff;
+	text-shadow: 0 0 .3rem #000;
+}
+
+p.header {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	color: #FFD700;
+	text-shadow: 0 0 .3rem #000;
+}
+
+hr {
+	max-width: 5rem;
+	border: .1rem solid #fff;
+}
+
+#container {
+	height: 100%;
+	background-image: url("images/safari1.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+
+#content {
+	max-width: 50rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn {
+	background-color: rgba(255,215,0,0.8);
+	border: 0.1rem solid rgba(255,215,0,0);
+	color: #fff;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 2rem;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	border: 0.3rem solid rgba(206,173,4,0);
+	background: rgba(206,173,4,0.9);
+	color: #fff;
+}
+
+.small {
+	font-size: 0.75rem;
+	padding: .5rem 1rem;
+}
+
+form {
+	
+}
